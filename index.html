@@ -7,14 +7,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <main class="main">
-            <div class="container">
-                <div class="background-flowers"></div>
-                    <h1 class="title wrap__title">Выбери свой продукт</h1>
+        <main class="catalog">
+            <div class="container catalog__container">
+                <h1 class="title catalog__title">Выбери свой продукт</h1>
 
                 <ul class="products clear-list">
                     <li class="products__item card">
-                        <img class="card__img" src="img/bottle_of_mousse.png" alt="Бутылочка с муссом" width="290" height="245"/>
+                        <img class="card__img" src="img/bottle_of_mousse.png" alt="Бутылочка с муссом" width="290"/>
                         <span class="card__category">для нормальной кожи</span>
                         <h2 class="card__title">Увлажняющий мусс</h2>
                         <p class="card__description">Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
@@ -36,7 +35,7 @@
                     </li>
 
                     <li class="products__item card">
-                        <img class="card__img" src="img/ bottle_with_mask .png" alt="Бутылочка с муссом" width="290" height="245"/>
+                        <img class="card__img" src="img/ bottle_with_mask .png" alt="Бутылочка с муссом" width="290"/>
                         <span class="card__category">для нормальной кожи</span>
                         <h2 class="card__title">Увлажняющая маска</h2>
                         <p class="card__description">Способствует удерживанию влаги в верхних слоях кожи.</p>
@@ -58,7 +57,7 @@
                     </li>
 
                     <li class="products__item card">
-                        <img class="card__img" src="img/bottle_of_gel.jpg" alt="Бутылочка с муссом" width="290" height="245"/>
+                        <img class="card__img" src="img/bottle_of_gel.jpg" alt="Бутылочка с муссом" width="290"/>
                         <span class="card__category">для нормальной кожи</span>
                         <h2 class="card__title">Гель для умывания</h2>
                         <p class="card__description">Интенсивно очищает, не повреждает защитный барьер кожи.</p>
@@ -80,7 +79,7 @@
                     </li>
 
                     <li class="products__item card">
-                        <img class="card__img" src="img/bottles_of_cream-_and_masks.jpg" alt="Бутылочка с муссом" width="290" height="245"/>
+                        <img class="card__img" src="img/bottles_of_cream-_and_masks.jpg" alt="Бутылочка с муссом" width="290"/>
                         <span class="card__category">для нормальной кожи</span>
                         <h2 class="card__title">Подарочный набор №1</h2>
                         <p class="card__description">Набор, состоящий из увлажняющего крема и маски.</p>
@@ -102,7 +101,7 @@
                     </li>
 
                     <li class="products__item card">
-                        <img class="card__img" src="img/bottles_of_skincare_products.jpg" alt="Бутылочка с муссом" width="290" height="245"/>
+                        <img class="card__img" src="img/bottles_of_skincare_products.jpg" alt="Бутылочка с муссом" width="290"/>
                         <span class="card__category">для нормальной кожи</span>
                         <h2 class="card__title">Подарочный набор №5</h2>
                         <p class="card__description">Весь набор средств Invisible symphony, крем, маска, мусс и гель для умывания.</p>
@@ -123,7 +122,17 @@
 
                     </li>
                 </ul>
+                <div class="cards__buttons">
+                    <button id="change-color-card-first-btn">Изменить цвет первой карточки</button>
+                    <button id="change-color-all-cards-btn">Изменить цвет всех карточек</button>
+                    <button id="open-google-btn">Открыть Google</button>
+                    <button id="output-console-log-btn">Вывести консоль лог</button>
+                    <button id="colors-default-btn">Цвета по умолчанию</button>
+                    <button id="change-color-button-btn">Изменить цвет кнопки</button>
+                </div>
             </div>
+
         </main>
+        <script src="main.js"></script>
     </body>
 </html>
